@@ -3,7 +3,7 @@
 # Install conda
 # http://conda.pydata.org/docs/travis.html#the-travis-yml-file
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
-ll $HOME/miniconda
+ls -la $HOME/miniconda
 bash miniconda.sh -b -p $HOME/miniconda
 export PATH="$HOME/miniconda/bin:$PATH"
 
