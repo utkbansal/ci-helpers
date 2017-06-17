@@ -1,3 +1,5 @@
 # Ignore py.test generated dirs
 .cache/
 __pycache__
+
+.idea/
